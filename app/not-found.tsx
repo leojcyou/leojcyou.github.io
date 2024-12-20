@@ -15,7 +15,7 @@ const NotFoundPage: React.FC = () => {
   }, [router]);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-10">
       <div className="container mx-auto break-after-auto">
         <p className="text-5xl font-bold mb-4">
           <ReactTyped
