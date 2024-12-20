@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #F2EFE9;
+  --primary-color: #FCFFFD;
   --contrast-color: #252627;
   --accent-red-color: #904E55;
   --accent-blue-color: #4F759B;
@@ -15,7 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #252627;
-    --contrast-color: black;
+    --contrast-color: #FCFFFD;
     --accent-red-color: #904E55;
     --accent-blue-color: #4F759B;
 
@@ -29,8 +29,6 @@ body {
   background: var(--background);
 }
 
-h1 {
-  color: var(--foreground);
-  font-weight: 700;
-  font-size: 3rem;
+.list-markers {
+  color: var(--accent-blue-color); /* Example: Adjust the color to match your needs */
 }
