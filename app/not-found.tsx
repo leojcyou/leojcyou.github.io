@@ -10,7 +10,7 @@ const NotFoundPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("/");
-    }, 10000);
+    }, 7000);
     return () => clearTimeout(timer);
   }, [router]);
 
