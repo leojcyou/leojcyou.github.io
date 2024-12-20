@@ -5,7 +5,7 @@
 :root {
   --primary-color: #FCFFFD;
   --contrast-color: #252627;
-  --accent-red-color: #904E55;
+  --accent-red-color: #9C1C2D;
   --accent-blue-color: #4F759B;
 
   --background: var(--primary-color);
@@ -16,7 +16,7 @@
   :root {
     --primary-color: #252627;
     --contrast-color: #FCFFFD;
-    --accent-red-color: #904E55;
+    --accent-red-color: #9C1C2D;
     --accent-blue-color: #4F759B;
 
     --background: var(--primary-color);
@@ -31,4 +31,8 @@ body {
 
 .list-markers {
   color: var(--accent-blue-color); /* Example: Adjust the color to match your needs */
+}
+
+.red-emph {
+  color: var(--accent-red-color); /* Example: Adjust the color to match your needs */
 }
