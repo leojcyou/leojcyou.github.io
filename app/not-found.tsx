@@ -20,7 +20,7 @@ const NotFoundPage: React.FC = () => {
         <p className="text-5xl font-bold mb-4">
           <ReactTyped
             strings={[
-              "You're <span class='red-emph'>not</span> supposed to be here...",
+              "You&apos;re <span class='red-emph'>not</span> supposed to be here...",
             ]}
             typeSpeed={100}
             backSpeed={50}
@@ -33,7 +33,7 @@ const NotFoundPage: React.FC = () => {
         <Link className="underline" href="/">
           here
         </Link>{" "}
-        to return or I'll just send you back anyways.
+        to return or I&apos;ll just send you back anyways.
       </div>
     </div>
   );
