@@ -9,7 +9,7 @@ const LandingPage: React.FC = () => {
           <li className="flex items-center">
             <span className="list-markers mr-2">{">"}</span>
             <a href="/resume.pdf" download="leo_you_resume.pdf" className="underline">
-              Resume
+              Here's my ✨ Resume ✨
             </a>
           </li>
         </ul>
