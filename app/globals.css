@@ -29,10 +29,15 @@ body {
   background: var(--background);
 }
 
-.list-markers {
+.blue-emph {
   color: var(--accent-blue-color); /* Example: Adjust the color to match your needs */
 }
 
 .red-emph {
   color: var(--accent-red-color); /* Example: Adjust the color to match your needs */
+}
+
+.appear {
+  color: var(--foreground);
+  background: var(--background);
 }

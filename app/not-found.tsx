@@ -25,8 +25,7 @@ const NotFoundPage: React.FC = () => {
             typeSpeed={100}
             backSpeed={50}
             backDelay={1000}
-            showCursor={true}
-            cursorChar="|"
+            showCursor={false}
           />
         </p>
         Click{" "}
