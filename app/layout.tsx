@@ -29,6 +29,7 @@ export default function RootLayout({
             justifyContent: "center",
             alignItems: "center",
             height: "95vh",
+            overflow: "auto",
           }}
         >
           {children}

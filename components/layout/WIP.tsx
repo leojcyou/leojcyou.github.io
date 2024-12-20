@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ReactTyped } from "react-typed";
 
-const NotFoundPage: React.FC = () => {
+const WIP: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
@@ -15,14 +15,13 @@ const NotFoundPage: React.FC = () => {
   }, [router]);
 
   return (
-    <div className="container mx-auto px-10">
       <div className="container mx-auto break-after-auto">
         <p className="text-5xl font-bold mb-4">
           <ReactTyped
             strings={[
-              "You&apos;re <span class='red-emph'>not</span> supposed to be here...",
+              "Oops! I&apos;m still <span class='yellow-emph'>w</span>o<span class='yellow-emph'>r</span>k<span class='yellow-emph'>i</span>n<span class='yellow-emph'>g</span> on this page...",
             ]}
-            typeSpeed={100}
+            typeSpeed={50}
             backSpeed={50}
             backDelay={1000}
             showCursor={false}
@@ -34,8 +33,7 @@ const NotFoundPage: React.FC = () => {
         </Link>{" "}
         to return or I&apos;ll just send you back anyways.
       </div>
-    </div>
   );
 };
 
-export default NotFoundPage;
+export default WIP;
