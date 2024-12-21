@@ -9,8 +9,8 @@ const LandingPage: React.FC = () => {
       <div className="container mx-auto break-after-auto">
         <p className="text-5xl font-bold mb-4">
           <ReactTyped
-            strings={["Leo You"]}
-            typeSpeed={100}
+            strings={["Find <span class='blue-emph'>me</span> on..."]}
+            typeSpeed={50}
             backSpeed={50}
             backDelay={1000}
             showCursor={false}

@@ -11,7 +11,7 @@ const ptSerif = PT_Serif({
 
 export const metadata: Metadata = {
   title: "Leo You",
-  description: "Leo You's Personal Website",
+  description: "Leo You's Portfolio Website",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
             overflow: "auto",
           }}
         >
-          {children}
+          <div className="container mx-auto px-10">{children}</div>
         </main>
       </body>
     </html>

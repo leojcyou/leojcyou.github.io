@@ -15,7 +15,7 @@ const NotFoundPage: React.FC = () => {
   }, [router]);
 
   return (
-    <div className="container mx-auto px-10">
+    <>
       <div className="container mx-auto break-after-auto">
         <p className="text-5xl font-bold mb-4">
           <ReactTyped
@@ -34,7 +34,7 @@ const NotFoundPage: React.FC = () => {
         </Link>{" "}
         to return or I&apos;ll just send you back anyways.
       </div>
-    </div>
+    </>
   );
 };
 
