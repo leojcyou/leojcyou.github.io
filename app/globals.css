@@ -43,8 +43,3 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
-
-::selection {
-  background-color: var(--accent-yellow-color);
-  color: #252627;
-}

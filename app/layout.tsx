@@ -29,7 +29,7 @@ export default function RootLayout({
             justifyContent: "center",
             alignItems: "center",
             height: "95vh",
-            overflow: "auto",
+            // overflow: "auto",
           }}
         >
           <div className="container mx-auto px-10">{children}</div>
