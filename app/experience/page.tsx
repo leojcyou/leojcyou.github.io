@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import { ReactTyped } from "react-typed";
 
 const LandingPage: React.FC = () => {
