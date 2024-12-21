@@ -21,7 +21,7 @@ const Header: React.FC = () => {
             className="inline-block transition-colors duration-300 group-hover:text-[var(--color)]"
             style={
               {
-                ["--color" as any]: colors[index % colors.length],
+                ["--color" as string]: colors[index % colors.length],
               } as React.CSSProperties
             }
           >
@@ -40,9 +40,7 @@ const Header: React.FC = () => {
             <Link href="/">{renderMulticoloredText("Home")}</Link>
           </li>
           <li>
-            <Link href="/experience">
-              {renderMulticoloredText("Experience")}
-            </Link>
+            <Link href="/experience">{renderMulticoloredText("Experience")}</Link>
           </li>
           <li>
             <Link href="/hobbies">{renderMulticoloredText("Hobbies")}</Link>
